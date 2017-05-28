@@ -12,7 +12,7 @@
     "s3:ListBucket",
     "s3:GetBucketLocation"
   ],
-  "Resource": "arn:aws:s3:::dptsourcebackup"
+  "Resource": "arn:aws:s3:::BUCKET_NAME"
 
 },
 {
@@ -22,7 +22,7 @@
     "s3:GetObject",
     "s3:DeleteObject"
   ],
-  "Resource": "arn:aws:s3:::dptsourcebackup/*"
+  "Resource": "arn:aws:s3:::BUCKET_NAME/*"
 
 
 }
