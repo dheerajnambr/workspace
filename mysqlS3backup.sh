@@ -7,8 +7,8 @@ echo -e " "
 
 # Basic variables
 mysqluser="root"
-mysqlpass="server"
-bucket="s3://dptsourcebackup"
+mysqlpass="XXXXXX"
+bucket="s3://BUCKET_NAME"
 
 # Timestamp (sortable AND readable)
 stamp=`date +"%s - %A %d %B %Y @ %H%M"`
